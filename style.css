@@ -1,0 +1,89 @@
+#divparent {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#divparent #div1 {
+    width: 27%;
+}
+
+
+#divparent #divform1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+#divparent #divform2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grow:hover {
+    transition: .3s;
+    transform: scale(1.2);
+    color: rgb(43, 43, 219);
+
+
+}
+
+.grow {
+    background-color: rgb(255, 255, 255);
+    font-size: 200%;
+    margin: 0px;
+    border: 0px;
+    padding: 0%;
+    margin-right: 40px;
+}
+
+.grow2:hover {
+    transition: .3s;
+    transform: scale(1.2);
+    color: rgb(43, 43, 219);
+
+
+}
+
+.grow2 {
+    background-color: rgb(255, 255, 255);
+    font-size: 200%;
+    margin: 0px;
+    border: 0px;
+    padding: 0%;
+}
+
+.show {
+    display: block;
+
+}
+
+.hide {
+    display: none;
+}
+
+.log {
+    width: 100%;
+    background-color: #0055ffd4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    font-size: small;
+    border-radius: 4px;
+}
+
+.sign {
+    width: 100%;
+    background-color: #0055ffd4;
+    color: white;
+    padding: 14px 15px;
+    margin: 8px 0;
+    border-radius: 4px;
+    font-size: small;
+}
