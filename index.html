@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head></head>
+
 
 <script src="main.js" defar></script>
 <link rel="stylesheet" href="style.css">
@@ -9,56 +9,40 @@
 <body>
     <div class="divparent">
         <div class="divleftpic">
-            <img src="html.png.jpg" alt="" />
+            <img src="html.png - Copy.jpg" alt="" />
         </div>
+        <div class="divright"><!--all page -->
+            <div class="forms">
+                <div class="buttons">
+                    <button id="button1" class="grow "> Log In </button>
+                    <button id="button2"> Sign Up</button>
+                </div>
+                <form id="form1" class="form1"><!--frist form (log in )-->
+                    <p>Enter your details below</p>
+                    <h3>Email address</h3>
+                    <input type="email" name="email" id="email" required>
+                    <h3>Password</h3>
+                    <input type="password" name="password" id="password" required>
+                    <a href="#">Forgot your password?</a>
+                    <button class="log" type="submit">Log In</button>
+                </form>
 
 
 
-
+                <form id="form2" class="form2"><!--second form (sign up )-->
+                    <p>Enter your details below</p>
+                    <h3>Email address</h3>
+                    <input type="email" name="email" id="email2"required >
+                    <h3>Full name</h3>
+                    <input type="text" name="fullname" id="fullname"required >
+                    <h3>Password</h3>
+                    <input  type="password" name="password" id="password2"required >
+                    <a href="#">Forgot your password?</a>
+                    <button class="sign" type="submit">sign up</button>
+                </form>
+            </div>
+        </div>
     </div>
-
-
-
-
-    <button class="grow ">
-        Log In </button>
-    <form class="form1">
-        <p>Enter your details below</p>
-        <h3>Email address</h3>
-        <input type="email" name="email" id="email">
-        <h3>Password</h3>
-        <input type="password" name="password" id="password">
-        <button class="log" type="submit">Log In</button>
-        <div id="errorMsg" class="error"> </div>
-    </form>
-
-    <button class="grow2 " type="button" onclick="myFunction">
-        Sign Up
-    </button>
-
-    <form class="form2">
-        <p>Enter your details below</p>
-        <h3>Email address</h3>
-        <input type="email" name="email" id="email">
-        <h3>Full name</h3>
-        <input type="text" name="fullname" id="fullname">
-        <h3>Password</h3>
-        <input type="password" name="password" id="password">
-        <button class="sign" type="submit">sign up</button>
-        <div id="errorMsg" class="error"></div>
-    </form>
-    </div>
-
-
-    </div>
-
-
-
-
-
-
-
-
 </body>
 
 </html>

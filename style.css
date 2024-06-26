@@ -1,32 +1,57 @@
-#divparent {
+body {
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.divparent {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.divleftpic {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.divright {
+    background-color: white;
+    padding: 40px;
+    width: 50%;
+
+}
+
+.forms {
+    max-width: 300px;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.buttons button {
     background-color: rgb(255, 255, 255);
+    font-size: 200%;
+    margin: 0px;
+    border: 0px;
+    padding: 0%;
 
 }
 
-#divparent #div1 {
-    width: 27%;
-}
-
-
-#divparent #divform1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-
-}
-
-#divparent #divform2 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.grow:hover {
+.buttons button:hover {
     transition: .3s;
     transform: scale(1.2);
     color: rgb(43, 43, 219);
@@ -34,56 +59,33 @@
 
 }
 
-.grow {
-    background-color: rgb(255, 255, 255);
-    font-size: 200%;
-    margin: 0px;
-    border: 0px;
-    padding: 0%;
-    margin-right: 40px;
+form {
+    display: flex;
+    flex-direction: column;
 }
 
-.grow2:hover {
-    transition: .3s;
-    transform: scale(1.2);
-    color: rgb(43, 43, 219);
-
-
+form input {
+    display: flex;
+    margin-bottom: 15px;
+    border-radius: 100px
 }
 
-.grow2 {
-    background-color: rgb(255, 255, 255);
-    font-size: 200%;
-    margin: 0px;
-    border: 0px;
-    padding: 0%;
+form a {
+    text-align: left;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 20px;
 }
 
-.show {
-    display: block;
-
-}
-
-.hide {
-    display: none;
-}
-
-.log {
-    width: 100%;
-    background-color: #0055ffd4;
+form button {
+    display: flex;
+    background-color: #007bff;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    font-size: small;
-    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
 }
 
-.sign {
-    width: 100%;
-    background-color: #0055ffd4;
-    color: white;
-    padding: 14px 15px;
-    margin: 8px 0;
-    border-radius: 4px;
-    font-size: small;
+form button:hover {
+    background-color: #0056b3;
 }
